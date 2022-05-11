@@ -1,0 +1,65 @@
+body {
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+h1 {
+    color: blueviolet;
+    font: 32px Garamond, Helvetica, serif;
+}
+
+table {
+    width: 50%;
+    
+    
+}
+
+thead {
+    text-align: left;
+    background-color: azure;
+    
+}
+
+td{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+tbody{
+    background-color: white;
+    
+}
+
+label {
+    display: block;
+}
+
+hr{
+    margin: 20px;
+   color: blueviolet;
+   
+}
+
+#submit-btn {
+    display: block;
+}
+
+legend{
+    color: blueviolet;
+    font-weight: bold;
+    border: px solid blueviolet;
+}
+
+fieldset{
+    background-color: azure;
+    border-color: blueviolet;
+    
+}
+
+.tel {
+    text-decoration: none;
+}
+
+label{
+    padding: 5px;
+}
+

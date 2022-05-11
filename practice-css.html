@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="practice-styles.css">
+        <title>CSS Practice: CSS Corner Cafe</title>
+    </head>
+    <body>
+        <h1>CSS Corner Cafe</h1>
+        <section id="fieldset1">
+            <fieldset>
+                <legend>Menu</legend>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Cost</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Coffee</td>
+                            <td>$2</td>
+                        </tr>
+                        <tr>
+                            <td>Tea</td>
+                            <td>$1.50</td>
+                        </tr>
+                        <tr>
+                            <td>Chicken & Waffles</td>
+                            <td>$12</td>
+                        </tr>
+                        <tr>
+                            <td>Blueberry Pancakes</td>
+                            <td>$6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+        </section>
+        <hr>
+        <section>
+            <fieldset>
+                <legend>Submit Your Review</legend>
+                <form action="https://us-central1-nucamp-production.cloudfunctions.net/post/formdata" method="post">
+                    <b><label for="name">Name</label></b>
+                    <input type="text" id="name" name="name" />
+                    <b><label for="rating">Your Rating:</label></b>
+                    1 <input type="range" id="rating" name="rating" min="1" max="5" /> 5
+                    <input type="submit" id="submit-btn" value="Submit"/>
+                </form>
+            </fieldset>
+        </section>
+        <hr>
+        <section>
+           <fieldset>
+                <legend>Contact</legend>
+                <p>Call us: <a href="tel:+15555551212" class="tel">1-555-555-1212</a></p>
+                <p>Email us: <a href="http://example@gmail.com" class="tel">example@gmail.com</a></p>
+                <address>
+                    <b>Office Address:</b> <br>
+                    CSS Corner Cafe<br />
+                    101 W Main St<br />
+                    Bellevue, WA 98004.
+                </address> 
+           </fieldset>
+        </section>
+    </body>
+</html>
